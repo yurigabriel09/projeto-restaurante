@@ -105,14 +105,40 @@ section p {
 
 .links-icons {
     display: flex;
-    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
     text-transform: uppercase;
 }
 
-.links-icons img {
-    /* display: block; */
-    width: 180px;
-    height: 230px;
+.links-icons div {
+    width: 200px;
+    height: 250px;
+    box-shadow: 0 0 7px 1px var(--corheader);
+}
+
+.icon-cardapio {
+    background: #ccc url(imgs/menu.jpg) no-repeat right;
+    background-size: cover;
+}
+
+.icon-reservas {
+    background: #ccc url(imgs/reservas.jpeg) no-repeat center;
+    background-size: cover;
+}
+
+.icon-eventos {
+    background: #ccc url(imgs/eventos.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.icon-historia {
+    background: #ccc url(imgs/nossa-historia.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.icon-fotos {
+    background: #ccc url(imgs/fotos.jpg) no-repeat center;
     background-size: cover;
 }
 
